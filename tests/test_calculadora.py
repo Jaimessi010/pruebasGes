@@ -4,8 +4,7 @@ from operaciones import calcular
 
 
 def test_suma():
-    # Fallo intencional para demostrar el CD
-    assert calcular(10, 5, "+") == 20
+    assert calcular(10, 5, "+") == 15
 
 
 def test_resta():
